@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed';
+}
+
+img {
+    border-radius: 20px;
+    width: 40%;
+}
+
+p {
+    font-size: 20px;
+}
+
+section div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#spain {
+    font-size: 150px;
+    color: white;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url(../img/header-fon.jpg);
+    padding: 110px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+    transition: 0.6s;
+}
+
+section div {
+    width: 50%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+#about {
+    background-color: rgba(255, 153, 0, 0.603);
+}
+
+#history {
+    background-color: rgba(255, 153, 0, 0.342);
+}
+
+#history div p {
+    margin-bottom: 10px;
+}
+
+#geography {
+    background-color: rgba(255, 153, 0, 0.603);
+}
+
+#climat {
+    background-color: rgba(255, 153, 0, 0.342);
+}
+
+#nation {
+    background-color: rgba(255, 153, 0, 0.603);
+}
+
+#meal {
+    background-color: rgba(255, 153, 0, 0.342);
+}
+
+@media screen and (max-width: 734px) {
+    a {
+        font-size: 25px;
+    }
+
+    header {
+        padding: 40px;
+        min-height: 90vh;
+    }
+
+    #spain {
+        font-size: 60px;
+        position: relative;
+        top: -200px;
+    }
+
+    ul {
+        width: 300px;
+        position: relative;
+        top: 120px;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    section div {
+        width: 300px;
+    }
+
+    section div h1 {
+        font-size: 40px;
+    }
+
+    section div p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }    
+
+    section h1 {
+        font-size: 1px;
+    }
+}
+
